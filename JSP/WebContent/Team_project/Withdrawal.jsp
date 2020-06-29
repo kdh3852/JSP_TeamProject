@@ -14,9 +14,8 @@
 </head>
 <body>
 	<header>
-			<jsp:include page='header.jsp' flush='false'/>
+			<jsp:include page='top.jsp' flush='false'/>
 	</header>
-	<div class="container">
 <h2>회원탈퇴</h2>
   <hr>
 	<div>
@@ -44,7 +43,7 @@
 		<li>탈퇴 전 작성된 게시물이나 댓글은 등은 탈퇴 후에도 유지됩니다.</li>
 		<li style = " color:red">게시물 삭제 등 원하는 경우 반드시 삭제 처리 후 탈퇴를 신청 해주시기 바랍니다.</li>
 		</ul>
-		</div>
+		
 	<footer>
 			<jsp:include page = 'footer.jsp' flush='false'/>
 	</footer>
