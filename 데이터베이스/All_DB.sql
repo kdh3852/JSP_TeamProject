@@ -1,6 +1,6 @@
 -- -----------------------------------------------
 -- 사용자 테이블
-CREATE TABLE MEMBER(	
+CREATE TABLE MEMBERSHIP1(	
     USER_ID VARCHAR2(20) NOT NULL  PRIMARY KEY, 
 	PWD VARCHAR2(20) NOT NULL, 
 	NAME NVARCHAR2(20) NOT NULL, 
